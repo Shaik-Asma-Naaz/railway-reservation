@@ -1,0 +1,30 @@
+.seat-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.seat-row {
+  display: flex;
+  gap: 5px;
+}
+
+.seat {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.booked-seat {
+  background-color: red;
+  color: white;
+}
+
+.available-seat {
+  background-color: green;
+  color: white;
+}
